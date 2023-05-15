@@ -74,3 +74,57 @@
   border: none;
   cursor: pointer;
 }
+
+
+/* pricing section */
+
+section{
+  width: 100vw;
+  display: flex;
+justify-content: center;
+margin-top: 5%;
+}
+
+.pricing-header{
+  height: 20vh;
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1{
+  font-size: 38px;
+}
+.month-year{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.slide-button{
+  width: 40px;
+  height: 20px;
+  border-radius: 25px;
+  background-color: var(--green);
+}
+
+.white-circle{
+  background-color: var(--white);
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  margin-left: 2px;
+  z-index: 1;
+}
+
+.year{
+  color: var(--grey);
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.month{
+  font-size: 18px;
+  padding-right: 10px;
+}
