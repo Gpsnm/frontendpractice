@@ -1,29 +1,27 @@
-:root{
-  --green:#00b289;
+:root {
+  --green: #00b289;
   --grey: #4c4d5f;
   --yellow: #f8db62;
-  --white:#fff;
+  --white: #fff;
 }
 
-
-
-*{
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
   background-color: car(--white);
+  font-family: "Archivo", sans-serif;
 }
 
 /* navbar*/
-.nav-container{
-  height:10vh;
+.nav-container {
+  height: 10vh;
   display: flex;
   align-content: center;
   justify-content: space-between;
-  border: solid 5px red;
 }
 
-.logo{
+.logo {
   width: 10%;
   display: flex;
   align-items: center;
@@ -33,18 +31,17 @@
 .logo-image {
   height: 30%;
 }
-.nav-links{
+.nav-links {
   width: 33%;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .nav-links ul li a {
   text-decoration: none;
   font-size: 28px;
-  color:var(--grey);
+  color: var(--grey);
 }
 
 .nav-links ul li {
@@ -53,6 +50,27 @@
   padding: 10px;
 }
 
-.nav-buttons{
-  border: solid 5px blueviolet;
+.nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+.login-button {
+  padding: 15px 20px;
+  color: var(--green);
+  background-color: var(--white);
+  border: solid 1px var(--green);
+  margin-right: 5%;
+  border-radius: 7%;
+  cursor: pointer;
+}
+
+.start-button {
+  padding: 15px 30px;
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 7%;
+  border: none;
+  cursor: pointer;
 }
