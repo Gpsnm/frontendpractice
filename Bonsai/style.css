@@ -224,3 +224,26 @@ p{
 .add-on-head p{
 margin-bottom: 2%;
 }
+
+/* call to action */
+
+.call-to-action{
+  width: 80%;
+  height: auto;
+  display: flex;
+  padding: 50PX;
+  font-size: 38px;
+  justify-content: space-around;
+}
+
+.call-to-action h2{
+  font-size: 48px;
+}
+span{
+  color: var(--green);
+}
+
+.call-button{
+  display: flex;
+  align-items: center;
+}
